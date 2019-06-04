@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Colorful flat</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="topheader">
+			<div class="container">
+				<div class="topheader-grid">
+					<div class="topheader-grid__col">
+						<div class="logo">
+							<a href="#" class="topheader-grid__logo">
+								<i class="topheader-grid__icon fas fa-heart"></i>
+								colorful flat
+							</a>
+						</div>
+					</div>
+					<div class="topheader-grid__col">
+						<nav class="nav">
+							<ul class="nav-list">
+								<li><a class="nav-list__link"  href="index.html">Home</a></li>
+								<li><a class="nav-list__link" href="#anchor1">Services</a></li>
+								<li><a class="nav-list__link" href="#anchor2">Portfolio</a></li>
+								<li><a class="nav-list__link" href="#anchor3">Blog</a></li>
+								<li><a class="nav-list__link" href="#anchor4">Contact</a></li>
+							</ul>
+						</nav>
+						<div class="nav-toggle">
+							<i class=" nav-toggle__open fas fa-bars"></i>
+							<i class=" nav-toggle__close fas fa-times"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="preview">
+			<div class="container">
+				<div class="preview-block">
+					<div class="preview-grid">
+						<div class="preview-grid__col">
+							<h1 class="preview-grid__title">This template is awesome!</h1>
+						</div>
+						<div class="preview-grid__col">
+							<div class="preview-grid__item">
+								<img class="preview-grid__img" src="images/iMac.png" alt="iMac">
+							</div>
+						</div>
+					</div>
+					<div class="preview-grid">
+						<div class="preview-grid__col">
+							<h1 class="preview-grid__title">This template is awesome!</h1>
+						</div>
+						<div class="preview-grid__col">
+							<div class="preview-grid__item">
+								<img class="preview-grid__img" src="images/iMac.png" alt="iMac">
+							</div>
+						</div>
+					</div>
+					<div class="preview-grid">
+						<div class="preview-grid__col">
+							<h1 class="preview-grid__title">This template is awesome!</h1>
+						</div>
+						<div class="preview-grid__col">
+							<div class="preview-grid__item">
+								<img class="preview-grid__img" src="images/iMac.png" alt="iMac">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="services" id="anchor1">
+			<div class="container">
+				<div class="services-prev">
+					<i class="fas fa-chevron-circle-left"></i>
+				</div>
+				<div class="services-next">
+					<i class="fas fa-chevron-circle-right"></i>
+				</div>
+				<div class="services-grid">
+					<div class="services-grid__col">
+						<img class="services-grid__image" src="images/iPhone.svg" alt="iPhone">
+						<h3 class="services-grid__title">Flat Design</h3>
+						<p class="services-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+					</div>
+					<div class="services-grid__col">
+						<img class="services-grid__image" src="images/LightBulb.svg" alt="Bulb">
+						<h3 class="services-grid__title">Great Ideas</h3>
+						<p class="services-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+					</div>
+					<div class="services-grid__col">
+						<img class="services-grid__image" src="images/Browser.svg" alt="Browser">
+						<h3 class="services-grid__title">Browser Compatibility</h3>
+						<p class="services-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="works" id="anchor2">
+			<div class="container">
+				<h2 class="title">Recent works</h2>
+				<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+				<div class="works-links">
+					<ul id="filter" class="works-list">
+						<li class="link"><a data-filter="all" class="active">All</a></li>
+						<li class="link"><a data-filter="web">Web</a></li>
+						<li class="link"><a data-filter="mobile">Mobile</a></li>
+						<li class="link"><a data-filter="photography">Photography</a></li>
+						<li class="link"><a data-filter="design">Design</a></li>
+						<li class="link"><a data-filter="type">Type</a></li>
+					</ul>
+				</div>
+				<ul class="works-grid" id="portfolio">
+					<li class="item web" data-filter="web">
+						<a class="works-grid__link" data-fancybox="group"  href="images/big/Layer-1.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-1.png" alt="Layer"></a>
+					</li>
+					<li class="item mobile" data-filter="mobile">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-2.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-2.png" alt="Layer"></a>
+					</li>
+					<li class="item photography" data-filter="photography">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-3.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-3.png" alt="Layer"></a>
+					</li>
+					<li class="item design" data-filter="design">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-4.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-4.png" alt="Layer"></a>
+					</li>
+					<li class="item type" data-filter="type">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-5.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-5.png" alt="Layer"></a>
+					</li>
+					<li class="item design" data-filter="design">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-6.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-6.png" alt="Layer"></a>
+					</li>
+					<li class="item photography" data-filter="photography">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-3.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-3.png" alt="Layer"></a>
+					</li>
+					<li class="item design" data-filter="design">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-4.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-4.png" alt="Layer"></a>
+					</li>
+					<li class="item type" data-filter="type">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-5.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-5.png" alt="Layer"></a>
+					</li>
+					<li class="item design" data-filter="design">
+						<a data-fancybox="group" class="works-grid__link"  href="images/big/Layer-6.png" data-caption="My caption"><img class="works-grid__image" src="images/small/Layer-6.png" alt="Layer"></a>
+					</li>
+				</ul>
+				<div class="works-button">
+					<a class="button" id="loadMore" href="#">Show more</a>
+					<a class="button" id="loadLess" href="#">Show less</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="template">
+			<div class="container">
+				<div class="template-grid template-grid__border">
+					<div class="template-grid__col">
+						<div>
+							<img class="template-grid__image" src="images/Browser1.png" alt="Browser">
+						</div>
+					</div>
+					<div class="template-grid__col template-grid__col-width">
+						<h3 class="template-grid__title">Layered Neatly Photoshop Template</h3>
+						<p class="template-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. Integer lobortis purus a felis adipiscing, eget ornare justo semper. Etiam commodo tincidunt ante.</p>
+						<div class="template-grid__buttons">
+								<a class="button template-grid__button" href="#">Show more</a>
+						</div>
+					</div>
+				</div>
+				<div class="template-grid template-grid__reverse">
+					<div class="template-grid__col">
+						<div>
+							<img class="template-grid__image" src="images/Browser1.png" alt="Browser">
+						</div>
+					</div>
+					<div class="template-grid__col template-grid__col-width">
+						<h3 class="template-grid__title">Layered Neatly Photoshop Template</h3>
+						<p class="template-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. Integer lobortis purus a felis adipiscing, eget ornare justo semper. Etiam commodo tincidunt ante.</p>
+						<div class="template-grid__buttons">
+								<a class="button template-grid__button-reverse" href="#">Show more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="team" id="anchor3">
+			<div class="container">
+				<h2 class="title">Meet our team</h2>
+				<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+				<div class="team-prev">
+					<i class="fas fa-chevron-circle-left"></i>
+				</div>
+				<div class="team-next">
+					<i class="fas fa-chevron-circle-right"></i>
+				</div>
+				<div class="team-grid">
+					<div class="team-grid__col">
+						<div class="team-grid__item">
+							<div class="photoblock">
+								<a class="team-grid__photo" href="#"><img src="images/team.png"  alt="Team"></a>
+							</div>
+							<div class="textblock">
+								<h4>
+									<a  class="team-grid__nickname" href="">John Smith</a>
+								</h4>
+								<h5 class="team-grid__profession">Creative Director</h5>
+								<p class="team-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
+								<div>
+									<ul class="team-grid__icons">
+										<li>
+											<a class="facebook" href="#"><img class="team-grid__icon" src="images/facebook.png"  alt="Facebook"></a>
+										</li>
+										<li>
+											<a class="team-grid__icon twitter" href="#"><img class="team-grid__icon" src="images/twitter.png" alt="Twitter"></a>
+										</li>
+										<li>
+											<a class="team-grid__icon pinterest" href="#"><img class="team-grid__icon" src="images/pinterest.png" alt="Pinterest"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="team-grid__col">
+						<div class="team-grid__item">
+							<div class="photoblock">
+								<a class="team-grid__photo" href="#"><img src="images/team.png" alt="Team"></a>
+							</div>
+							<div class="textblock">
+								<h4>
+									<a  class="team-grid__nickname" href="">John Smith</a>
+								</h4>
+								<h5 class="team-grid__profession">Creative Director</h5>
+								<p class="team-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
+								<div>
+									<ul class="team-grid__icons">
+										<li>
+											<a class="facebook" href="#"><img class="team-grid__icon" src="images/facebook.png"  alt="Facebook"></a>
+										</li>
+										<li>
+											<a class="team-grid__icon twitter" href="#"><img class="team-grid__icon" src="images/twitter.png" alt="Twitter"></a>
+										</li>
+										<li>
+											<a class="team-grid__icon pinterest" href="#"><img class="team-grid__icon" src="images/pinterest.png" alt="Pinterest"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="team-grid__col">
+						<div class="team-grid__item">
+							<div class="photoblock">
+								<a class="team-grid__photo" href="#"><img src="images/team.png" alt="team"></a>
+							</div>
+							<div class="textblock">
+								<h4>
+									<a  class="team-grid__nickname" href="">John Smith</a>
+								</h4>
+								<h5 class="team-grid__profession">Creative Director</h5>
+								<p class="team-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
+								<div>
+									<ul class="team-grid__icons">
+										<li>
+											<a class="facebook" href="#"><img class="team-grid__icon" src="images/facebook.png"  alt="Facebook"></a>
+										</li>
+										<li>
+											<a class="team-grid__icon twitter" href="#"><img class="team-grid__icon" src="images/twitter.png" alt="Twitter"></a>
+										</li>
+										<li>
+											<a class="team-grid__icon pinterest" href="#"><img class="team-grid__icon" src="images/pinterest.png" alt="Pinterest"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul class="slick-dots">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<div class="post">
+			<div class="container">
+				<h2 class="title">Recent posts</h2>
+				<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+				<div class="post-prev">
+					<i class="fas fa-chevron-circle-left"></i>
+				</div>
+				<div class="post-next">
+					<i class="fas fa-chevron-circle-right"></i>
+				</div>
+				<div class="post-grid">
+					<div class="post-grid__col">
+						<div class="post-grid__item">
+							<div class="photoblock">
+								<a class="post-grid__photo" href="#"><img src="images/post.png" alt="post"></a>
+							</div>
+							<div class="textblock">
+								<h4>
+									<a  class="post-grid__title" href="">Really Interesting Post</a>
+								</h4>
+								<h5 class="post-grid__data">October 27</h5>
+								<p class="post-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
+							</div>
+						</div>
+					</div>
+					<div class="post-grid__col">
+						<div class="post-grid__item">
+							<div class="photoblock">
+								<a class="post-grid__photo" href="#"><img src="images/post.png" alt="post"></a>
+							</div>
+							<div class="textblock">
+								<h4>
+									<a  class="post-grid__title" href="">Really Interesting Post</a>
+								</h4>
+								<h5 class="post-grid__data">October 27</h5>
+								<p class="post-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
+							</div>
+						</div>
+					</div>
+					<div class="post-grid__col">
+						<div class="post-grid__item">
+							<div class="photoblock">
+								<a class="post-grid__photo" href="#"><img src="images/post.png" alt="post"></a>
+							</div>
+							<div class="textblock">
+								<h4>
+									<a  class="post-grid__title" href="">Really Interesting Post</a>
+								</h4>
+								<h5 class="post-grid__data">October 27</h5>
+								<p class="post-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
+							</div>
+						</div>
+					</div>
+					<div class="post-grid__col">
+						<div class="post-grid__item">
+							<div class="photoblock">
+								<a class="post-grid__photo" href="#"><img src="images/post.png" alt="post"></a>
+							</div>
+							<div class="textblock">
+								<h4>
+									<a  class="post-grid__title" href="">Really Interesting Post</a>
+								</h4>
+								<h5 class="post-grid__data">October 27</h5>
+								<p class="post-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
+							</div>
+						</div>
+					</div>
+					<div class="post-grid__col">
+						<div class="post-grid__item">
+							<div class="photoblock">
+								<a class="post-grid__photo" href="#"><img src="images/post.png" alt="post"></a>
+							</div>
+							<div class="textblock">
+								<h4>
+									<a  class="post-grid__title" href="">Really Interesting Post</a>
+								</h4>
+								<h5 class="post-grid__data">October 27</h5>
+								<p class="post-grid__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul class="slick-dots">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="post-button">
+					<a class="button post-buttons" id="post-loadMore" href="#">Show more</a>
+					<a class="button post-buttons" id="post-loadLess" href="#">Show less</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="contact" id="anchor4">
+			<div class="container">
+				<h2 class="title contact-title">CONTACT US</h2>
+				<p class="text contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+				<div class="contact-form">
+					<input class="contact-form__input" type="text" placeholder="Name:">
+                	<input class="contact-form__input" type="text" placeholder="Email:">
+                	<textarea class="contact-form__input contact-form__textarea" placeholder="Message:" ></textarea>
+                </div>
+                <div class="contact-button">
+					<a class="button contact-buttons" href="#">Show more</a>
+				</div>
+			</div>
+		</div>
+		<div class="lowfooter">
+			<div class="container">
+				<div class="lowfooter-grid">
+					<div class="lowfooter-grid__col">
+						<div class="lowfooter-grid__icons">
+							<a class="lowfooter-grid__icon" href="#"><i class="fab fa-twitter"></i></a>
+							<a class="lowfooter-grid__icon" href="#"><i class="fab fa-facebook-f"></i></a>
+							<a class="lowfooter-grid__icon" href="#"><i class="fab fa-html5"></i></a>
+							<a class="lowfooter-grid__icon" href="#"><i class="fab fa-flickr"></i></a>
+						</div>
+					</div>
+					<div class="lowfooter-grid__col">
+						<p class="lowfooter-grid__text"><a href="#">Bloom Web Design</a> Copyright &copy; 2013. | Powered By <a href="#">Wordpress</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
